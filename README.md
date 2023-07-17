@@ -1,51 +1,25 @@
 # Minesweeper
 
-## Description
-This project is a web-based implementation of the classic game Minesweeper.
+This is a simple Minesweeper game written in JavaScript. The game is played on a grid of squares, some of which contain mines. The player's goal is to reveal all of the squares without clicking on a mine.
 
-## Table of Contents
-1. [Installation](#installation)
-2. [Usage](#usage)
-3. [Features](#features)
-4. [Contributing](#contributing)
-5. [License](#license)
+## How to play
 
-## Installation
-To install and run Minesweeper locally, follow these steps:
+To play the game, click on a square to reveal it. If the square contains a number, that number indicates how many mines are adjacent to the square. If the square contains a mine, the game is over.
 
-1. Clone the repository:
-```bash
-git clone https://github.com/andycsou/minesweeper.git
-```
+To mark a square as a mine, right-click on the square. Marked squares will be highlighted in yellow.
 
-2. Navigate to the project directory:
-```bash
-cd minesweeper
-```
+## Files
 
-3. Install the required dependencies using npm:
-```bash
-npm install
-```
+The project contains the following files:
 
-## Usage
-To start the Minesweeper game, run the following command:
-```bash
-npm start
-```
+* `index.html`: The HTML file that contains the game's UI.
+* `minesweeper.js`: The JavaScript file that contains the game's logic.
+* `styles.css`: The CSS file that defines the game's style.
 
-This will launch the game in your default web browser. You can then interact with the game board by clicking on the cells to uncover them and avoid the hidden mines.
+## Running the game
 
-## Features
-- Classic Minesweeper gameplay
-- Adjustable difficulty levels
-- Timer to track your progress
-- Ability to flag potential mines
-- Responsive design for different screen sizes
-- High scores leaderboard
-
-## Contributing
-Contributions to the Minesweeper project are welcome. If you find any issues or have suggestions for improvements, please open an issue on the [GitHub repository](https://github.com/andycsou/minesweeper/issues) or submit a pull request.
+To run the game, open the `index.html` file in a web browser.
 
 ## License
-This project is licensed under the [MIT License](https://github.com/andycsou/minesweeper/blob/main/LICENSE).
+
+The project is licensed under the MIT License.
